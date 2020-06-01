@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/redux-restaurant-demo/static/css/main.43ecf0ba.chunk.css",
+    "main.js": "/redux-restaurant-demo/static/js/main.7a51eb09.chunk.js",
+    "main.js.map": "/redux-restaurant-demo/static/js/main.7a51eb09.chunk.js.map",
+    "runtime-main.js": "/redux-restaurant-demo/static/js/runtime-main.c6b3835c.js",
+    "runtime-main.js.map": "/redux-restaurant-demo/static/js/runtime-main.c6b3835c.js.map",
+    "static/js/2.ba174593.chunk.js": "/redux-restaurant-demo/static/js/2.ba174593.chunk.js",
+    "static/js/2.ba174593.chunk.js.map": "/redux-restaurant-demo/static/js/2.ba174593.chunk.js.map",
+    "index.html": "/redux-restaurant-demo/index.html",
+    "precache-manifest.53f3fe9cae5c04eea7075d5572401acb.js": "/redux-restaurant-demo/precache-manifest.53f3fe9cae5c04eea7075d5572401acb.js",
+    "service-worker.js": "/redux-restaurant-demo/service-worker.js",
+    "static/css/main.43ecf0ba.chunk.css.map": "/redux-restaurant-demo/static/css/main.43ecf0ba.chunk.css.map",
+    "static/js/2.ba174593.chunk.js.LICENSE.txt": "/redux-restaurant-demo/static/js/2.ba174593.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6b3835c.js",
+    "static/js/2.ba174593.chunk.js",
+    "static/css/main.43ecf0ba.chunk.css",
+    "static/js/main.7a51eb09.chunk.js"
+  ]
+}
