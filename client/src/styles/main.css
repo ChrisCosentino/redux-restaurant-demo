@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+
+.menu-container{
+    /* flex-grow: 1; */
+    width: 65%;
+    padding: 20px;
+}
+
+.cart-container{
+    flex-grow: 1;
+    position: fixed;
+    width: 30%;
+    right: 5px;
+    top: 45px;
+    background-color: #f3f3f3;
+    
+}
+
+.menu-item{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-item-specs{
+    /* display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.menu-dots{
+    flex: 1;
+    border-bottom: 1px dashed black;
+}
+
+.menu-item-name{
+    margin-right: 5px;
+}
+
+.menu-item-price{
+    margin-left: 10px;
+}
+
+.menu-item-desc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item-order{
+
+}
+
+.button{
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: #36454f;
+    color: white;
+    border-radius: 5px;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.button:focus, .button:hover, .button:active {
+    outline: none;
+}
+
+.cart-item-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+.cart-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-btn{
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: #bb2124;
+    color: white;
+    border-radius: 5px;
+}
+
+.total{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mownow",
+  "version": "1.0.0",
+  "description": "A food ordering service where people can order food online",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Cosentino",
+  "license": "MIT"
+}
